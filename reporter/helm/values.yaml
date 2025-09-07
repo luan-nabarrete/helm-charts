@@ -1,0 +1,14 @@
+global:
+  imagePullPrefix: icr.io
+  imagePullSecret: ibm-entitlement-key
+  licenseAccept: true
+
+ibmLicenseServiceReporter:
+  namespace: ibm-ls-reporter
+  imageRegistryNamespaceOperator: cpopen
+  imageRegistryNamespaceOperand: cpopen/cpfs
+  spec:
+    authentication:
+      useradmin:
+        enabled: true
+    version: 4.2.17
