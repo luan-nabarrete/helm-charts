@@ -5,7 +5,7 @@ global:
 
 ibmLicensing:
   namespace: connect-direct
-  watchNamespace: ibm-licensing
+  watchNamespace: connect-direct
   imageRegistryNamespaceOperator: cpopen
   imageRegistryNamespaceOperand: cpopen/cpfs
   spec:
