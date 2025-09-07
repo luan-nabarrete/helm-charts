@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  ibm-licensing-scanner-reporter-cluster-scoped:
+  - apiVersion: v2
+    created: "2025-09-07T16:24:03.451549056-03:00"
+    description: A Helm chart for IBM License Service installation
+    digest: 252c753751cfc93b7dc0039bff6845711c1f561422ee97975662bd460ad8a6f4
+    name: ibm-licensing-scanner-reporter-cluster-scoped
+    type: application
+    urls:
+    - ibm-licensing-scanner-reporter-cluster-scoped-4.2.17.tgz
+    version: 4.2.17
+generated: "2025-09-07T16:24:03.449965018-03:00"

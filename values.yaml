@@ -4,7 +4,7 @@ global:
   licenseAccept: true
 
 ibmLicensing:
-  namespace: ibm-licensing
+  namespace: connect-direct
   watchNamespace: ibm-licensing
   imageRegistryNamespaceOperator: cpopen
   imageRegistryNamespaceOperand: cpopen/cpfs
@@ -12,3 +12,9 @@ ibmLicensing:
     version: 4.2.17
     datasource: datacollector
     httpsEnable: true
+
+ibmLicenseServiceReporter:
+  namespace: connect-direct
+
+ibmLicenseServiceScanner:
+  namespace: connect-direct
